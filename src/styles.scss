@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e9ebee;
+  height: 100%;
+}
+
+.header {
+  background-color: #4267b2;
+  border-bottom: 1px solid #29487d;
+  height: 42px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contentH {
+  display: flex;
+  flex-direction: row;
+}
+.contentV {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  justify-content: center;
+  align-content: center;
+}
+.centerH {
+  justify-content: center;
+}
+.centerV {
+  align-items: center;
+}
+
+.posts {
+  width: 500px;
+  li {
+    list-style-type: none;
+    background-color: #fff;
+    margin: 30px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 3px;
+    padding: 20px;
+    div.postheader {
+      border-bottom: 1px solid #dddfe2;
+      padding: 10px 0;
+      margin-bottom: 10px;
+    }
+  }
+  .avatar {
+    background-color: #333;
+    width: 60px;
+    height: 60px;
+    background: #eee;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+  }
+  .dateinfo {
+    font-size: 12px;
+    color: #777;
+  }
+  .info {
+    line-height: 20px;
+  }
+  .content {
+    line-height: 24px;
+    font-size: 14px;
+  }
+}
